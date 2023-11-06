@@ -80,9 +80,6 @@ public class AddToCartControl extends HttpServlet {
 			session.setAttribute("quanlity", quanlity);
 		}
 
-	
-		
-		
 		
 		double total = 0;
 		for (Product c : list) {
