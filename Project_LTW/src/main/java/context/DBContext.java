@@ -26,11 +26,11 @@ public class DBContext {
 //    private final String password = "dunghoang168";
 //}
 	
-	String url = "jdbc:sqlserver://DESKTOP-9LNQ1HF\\SQLEXPRESS:1433;databaseName=DataBase2;encrypt=false";
+	String url = "jdbc:sqlserver://DESKTOP-RDMJ7GI\\SQLEXPRESS:1433;databaseName=chi;encrypt=false";
 //	String url = "jdbc:sqlserver://DESKTOP-9LNQ1HF\\SQLEXPRESS:1433;databaseName=test;encrypt=false";
 	String userName = "sa";
-	String password = "dunghoang168";
-
+	String password = "123";
+	
 	
 	public Connection getConnection() throws Exception{
 

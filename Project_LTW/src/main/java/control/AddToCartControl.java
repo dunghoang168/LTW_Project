@@ -66,7 +66,7 @@ public class AddToCartControl extends HttpServlet {
 					c.setPrice(c.getPrice()/c.getAmount());
 					c.setAmount(c.getAmount() + 1);
 					c.setPrice(c.getPrice()*c.getAmount());
-					out.println("<h3 style='color:crimson; text-align: center'>Item Already in Cart. <a href='Cart.jsp'>GO to Cart Page</a></h3>");
+					//out.println("<h3 style='color:crimson; text-align: center'>Item Already in Cart. <a href='Cart.jsp'>GO to Cart Page</a></h3>");
 				}
 				
 				
