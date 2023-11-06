@@ -63,6 +63,7 @@ public class AddToCartControl extends HttpServlet {
 			for (Product c : cart_list) {
 				if (c.getId() == id) {
 					exist = true;
+					c.setPrice(c.getPrice()/c.getAmount());
 					c.setAmount(c.getAmount() + 1);
 					c.setPrice(c.getPrice()*c.getAmount());
 					out.println("<h3 style='color:crimson; text-align: center'>Item Already in Cart. <a href='Cart.jsp'>GO to Cart Page</a></h3>");
